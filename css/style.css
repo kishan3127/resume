@@ -24,7 +24,7 @@ a {
 }
 
 body {
-  background: #000000;
+  background: #222;
 }
 
 .fixed-container {
@@ -246,7 +246,7 @@ section.skills {
 }
 
 .btn-contact:hover {
-  color: black;
+  color: #222;
 }
 
 .name {
