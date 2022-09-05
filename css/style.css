@@ -333,20 +333,21 @@ footer .colors {
   }
 
   .content-left {
-    order: 0;
     margin-top: 30px;
     max-width: 100%;
   }
 
   .right-content img {
-    height: 190px;
-    width: 190px;
-    border-radius: 50%;
+    height: 400px;
+    width: 100%;
+    border-radius: 0;
   }
 
   .right-content {
-    margin: 0 auto;
+    /* margin: 0 auto; */
     border: unset;
+    width: 100%;
+    padding: 0;
   }
 }
 
