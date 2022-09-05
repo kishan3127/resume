@@ -193,7 +193,7 @@ section.skills {
   content: "";
   position: absolute;
   bottom: 2px;
-  background: #f1dc5080;
+  background: #5082f1;
   width: 34%;
   height: 4px;
   left: 0px;
@@ -204,7 +204,7 @@ section.skills {
   content: "";
   position: absolute;
   bottom: 6px;
-  background: #f150507a;
+  background: #f150ae;
   width: 60%;
   height: 3px;
   right: -13px;
@@ -260,7 +260,7 @@ section.skills {
   left: 5px;
   background: transparent;
   height: 0;
-  border-left: 10px solid #f15050;
+  border-left: 10px solid #f150ae;
   border-right: 10px solid #f1505000;
   border-top: 10px solid #00800000;
   width: 0;
@@ -277,7 +277,7 @@ section.skills {
   width: 0;
   border-left: 10px solid #f1dc5000;
   border-right: 10px solid #0000ff00;
-  border-top: 10px solid #f1dc50;
+  border-top: 10px solid #5082f1;
   width: 0;
   border-bottom: 10px solid #ffffff00;
 }
@@ -302,11 +302,11 @@ footer .colors:after {
   left: 5px;
   background: transparent;
   height: 0;
-  border-left: 30px solid #f15050;
-  border-right: 30px solid #f1505000;
-  border-top: 30px solid #f15050;
+  border-left: 30px solid #5082f1;
+  border-right: 30px solid #602121;
+  border-top: 30px solid #783232;
   width: 0;
-  border-bottom: 30px solid #f1dc50;
+  border-bottom: 30px solid #3e7473a1;
 }
 
 footer .colors {
