@@ -193,7 +193,7 @@ section.skills {
   content: "";
   position: absolute;
   bottom: 2px;
-  background: #f1dc50;
+  background: #f1dc5080;
   width: 34%;
   height: 4px;
   left: 0px;
@@ -204,7 +204,7 @@ section.skills {
   content: "";
   position: absolute;
   bottom: 6px;
-  background: #f15050;
+  background: #f150507a;
   width: 60%;
   height: 3px;
   right: -13px;
