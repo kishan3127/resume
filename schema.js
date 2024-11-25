@@ -49,3 +49,4 @@ function generateArticleSchema() {
   script.textContent = JSON.stringify(schema);
   document.head.appendChild(script);
 }
+generateArticleSchema();
