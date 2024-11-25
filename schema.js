@@ -4,7 +4,7 @@ function getLanguageFromURL(url) {
   return pathSegments[2]; 
 }
 
-export function getMetadata(name) {
+function getMetadata(name) {
   const attr = name && name.includes(':') ? 'property' : 'name';
   const meta = [...document.head.querySelectorAll(`meta[${attr}="${name}"]`)].map((m) => m.content).join(', ');
   return meta || '';
