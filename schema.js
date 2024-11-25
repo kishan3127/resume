@@ -1,3 +1,19 @@
+function getLanguageFromURL(url) {
+  const urlObj = new URL(url);
+  const pathSegments = urlObj.pathname.split('/');
+  return pathSegments[2]; 
+}
+
+function generateSlug(name){
+  const slug = name
+        .toLowerCase()               
+        .trim()                      
+        .replace(/[^a-z0-9\s-]/g, '') 
+        .replace(/\s+/g, '-')        
+        .replace(/-+/g, '-');        
+  return slug
+}
+
 function generateArticleSchema() {
   const locationObj = window.location
   const pageLang = getLanguageFromURL(locationObj.href);
