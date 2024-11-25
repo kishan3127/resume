@@ -1,24 +1,4 @@
-function getLanguageFromURL(url) {
-  const urlObj = new URL(url);
-  const pathSegments = urlObj.pathname.split('/');
-  return pathSegments[2]; 
-}
-
-function generateSlug(name){
-  const slug = name
-        .toLowerCase()               
-        .trim()                      
-        .replace(/[^a-z0-9\s-]/g, '') 
-        .replace(/\s+/g, '-')        
-        .replace(/-+/g, '-');        
-  return slug
-}
-
 function generateArticleSchema() {
-  const locationObj = window.location
-  const pageLang = getLanguageFromURL(locationObj.href);
-  const authorSlug = generateSlug(getMetadata('author') || '')
-  const authorPath = `${locationObj.origin}/blogs/${pageLang}/authors/${authorSlug}`;
   const schema =  {
   "@context": "https://schema.org",
   "@type": "Person",
