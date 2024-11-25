@@ -7,8 +7,7 @@ function generateArticleSchema() {
   "@context": "https://schema.org",
   "@type": "Person",
   "name": "Kishan Gopal Modi",
-  "description": "I'm a FrontEnd Developer, based in Bikaner, Rajasthan. Working as a professional web developer from last 5+ years. Worked with international clients from various origins. Having expertise in trending JavaScript frameworks.
-",
+  "description": "I am a FrontEnd Developer, based in Bikaner, Rajasthan. Working as a professional web developer from last 5+ years. Worked with international clients from various origins. Having expertise in trending JavaScript frameworks.",
   "url": "https://kishan3127.github.io/resume",
   "image": "https://kishan3127.github.io/resume/images/myProfile.jpeg",
   "email": "kishangopalmodi@gmail.com",
