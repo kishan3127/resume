@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://kishan3127.github.io/resume/sitemap.xml
