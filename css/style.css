@@ -332,6 +332,16 @@ footer .colors {
   margin-bottom: 10px;
 }
 
+.work-exprience:not(:first-child) {
+    border-top: 1px solid white;
+    padding-top: 10px;
+}
+
+.work-exprience .detail.title {
+    font-size: 20px;
+    opacity: 1;
+}
+
 /* Media queries */
 
 @media only screen and (max-width: 767px) {
